@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "graph_id": 1,
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "C",
+            "to": "B",
+            "weight": 2
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operations": 14,
+        "executionTimeMs": 0.049666
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operations": 7,
+        "executionTimeMs": 0.015417
+      }
+    },
+    {
+      "graph_id": 2,
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operations": 10,
+        "executionTimeMs": 0.012833
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operations": 5,
+        "executionTimeMs": 0.004333
+      }
+    }
+  ]
+}
